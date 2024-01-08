@@ -40,7 +40,7 @@
 {{--                            <a href="404.html" class="dropdown-item">404 Error</a>--}}
 {{--                        </div>--}}
 {{--                    </div>--}}
-                    <a href="#" class="nav-item nav-link">Profile</a>
+                    <a href="{{route('profile.edit')}}" class="nav-item nav-link">Profile</a>
                 </div>
                 <a href="{{route('login')}}" class="btn btn-primary px-3 d-none d-lg-flex">Login</a>
             </div>
