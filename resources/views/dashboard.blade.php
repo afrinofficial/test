@@ -36,7 +36,7 @@
                         </div>
                     </div>
 
-                    <a href="contact.html" class="nav-item nav-link">Profile</a>
+                    <a href="{{route('profile.edit')}}" class="nav-item nav-link">Profile</a>
                 </div>
                 {{--                <a href="{{route('logout')}}" class="btn btn-primary px-3 d-none d-lg-flex">Logout</a>--}}
 
